@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(115, 208, 231, 0.842);
+}
+
+.emoji {
+  font-size: 8rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+.man {
+  display: none;
+}
+
+.woman {
+  display: none;
+}
+
+.love {
+  display: none;
+}
+
+.united {
+  display: none;
+}
+
+.wedding {
+  display: none;
+}
+
+.sex {
+  /* display: none; */
+}
+
+ .kiss {
+  display: none;
+ }
+
+ .cucumber {
+  display: none;
+ }
+
+ .water {
+  display: none;
+ }
+
+ .pregnant {
+  display: none;
+ }
+
+ .baby {
+  display: none;
+ }
+
+
+.active {
+  display: block;
+}
